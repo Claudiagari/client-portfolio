@@ -121,3 +121,10 @@ estructura de carpetas y archivos donde colocarás tu código.
 * Embeber un video
 * Añadir favicons
 * Añadir tweets recientes
+## Plan de acción
+* Estructura html index 3 horas.
+* Estructura links recetas 2 horas.
+* Dar estilo con css 12 horas.
+* Investigar sobre Backlog 2 horas.
+* Ejecutar Backlog y probar 3 horas.
+* Seguir dando estilo final 4 horas.
