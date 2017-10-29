@@ -1,3 +1,339 @@
 /*
  * Estilos de tu proyecto
  */
+ * {
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width:1200 ;
+}
+header {
+   position: fixed;
+   background: #2c3e50;
+   color: #fff;
+   width: 100%;
+   height: 108px;
+   padding: 25px 16px;
+   font-family:'Montserrat',sans-serif;
+   font-weight: 700px;
+   line-height: 1.8;
+   vertical-align: middle;
+   z-index:5000;
+}
+nav {
+   margin: 0 173px;
+}
+.capital-letter {
+    text-transform: uppercase
+}
+.lis1{
+    list-style:none;
+    padding: 0;
+    text-align: right ;
+    width: 70%;
+}
+li{
+    padding:8px;
+    text-align: right;
+    font-weight: 700;
+    vertical-align: middle;
+}
+.menu {
+    display: inline-block;
+}
+.click a {
+    text-decoration:none;
+    color: #fff;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+#boot{
+    font-size: 32px;
+    vertical-align: middle;
+    text-decoration:none;
+    color: #fff;
+    letter-spacing:0px; 
+}
+.start {
+    background: #18bc9c;
+    width: 100%;
+    height: 700px;
+    padding-top: 180px;
+    text-align: center;
+}
+.title{
+    text-transform: uppercase;
+    font-size: 76px;
+    color: #fff;
+    font-family:'Montserrat',sans-serif;
+    font-weight: 700px;
+}
+.hr-white{
+    display: inline-block;
+    background: #FFF;
+    width: 100px;
+    height: 1px;
+    padding-bottom: 5px;
+    border-bottom-width: 0px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.icon-star{
+    display: inline-block;
+    color: #FFF;
+    vertical-align: middle;
+    margin-top: 20px;
+}
+.list{
+    display: inline-block;
+    font-size: 28px;
+    color: #fff;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+}
+#list{
+   text-align: center;
+   margin-top:20px;
+}
+.portfolio h2{
+    text-align: center;
+    font-size: 48px;
+    font-family:'Montserrat',sans-serif;
+    font-weight: 700px;
+}
+.black{
+    color: #2c3e50;
+}
+.hr-black{
+    display: inline-block;
+    background: #2c3e50;
+    width: 100px;
+    height: 1px;
+    padding-bottom: 5px;
+    border-bottom-width: 0px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.portfolio{
+    text-align: center;
+    padding: 100px;
+}
+.image {
+    display:inline-block;
+    width:350px;
+    margin: 20px;
+}
+figure{
+    display: inline-block;
+}
+div .container{
+    display: inline-block;
+}
+.about{
+    width:100%;
+    height:600px;
+    text-align: center;
+    background: #18bc9c;
+    padding: 100px;
+}
+.about h2 {
+    font-size: 48px;
+    font-family:'Montserrat',sans-serif;
+    font-weight: 700px;
+    color:#fff;
+}
+.column {
+    column-count: 2;
+    width: 750px;
+    margin: 25px 300px;
+}
+.paragraph {
+    width: 350px;
+    height: 200px;
+    line-height: 1.5;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: left;
+}
+.div-boxdw{
+    width: 220px; 
+    text-align: center;
+    margin-left: 550px;
+}
+.download {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    display: block;
+    border:2px solid #fff;
+    width: 220px;
+    border-radius: 5px;
+    padding: 9px;
+}
+.contact{
+    text-align: center;
+    padding: 100px;
+}
+.contact h1{
+    font-size: 48px;
+    font-family:'Montserrat',sans-serif;
+    font-weight: 700px;
+}
+.form{
+    width: 730px;
+    margin-left: 270px;
+    text-align: center;
+}
+input,textarea{
+    border:none;
+    display: block;
+    width: 730x;
+    height: 100px;
+    outline-color: 0;
+    opacity:0.7;
+}
+textarea{
+    padding-top: 30px;
+}
+input[placeholder]{
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    outline-color: 0;
+    color: #343a40;
+}
+textarea[placeholder]{
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    outline-color: 0;
+    color: #343a40;
+}
+::-webkit-input-placeholder{
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    outline-color: 0;
+    width: 730x;
+}
+input:focus, input:hover input:active{
+    border:none;
+    outline-color: 0;
+}
+:focus {
+    outline: 0;
+}
+button{
+    font-family: 'Lato', sans-serif;
+    font-size: 24px; 
+    font-weight: 700;
+    background:  #18bc9c;
+    color: #fff;
+    margin-top:10px;
+    padding: 10px;
+    text-align: left;
+    border-radius: 5px;
+    border:none;
+    margin-right: 700px;
+}
+footer{
+    width: 100%;
+    background: #2c3e50;
+    padding: 30px;
+    text-align: center;
+}
+.info {
+    column-count: 2;
+    height: 200px;
+    text-align: center;
+    padding-top: 30px;
+}
+.info h3{
+    font-size: 28px;
+    font-family:'Montserrat',sans-serif;
+    font-weight: 700px;
+    color: #FFF;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.location{
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    
+    height: 100px;
+    text-align: center;
+}
+.networks{
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+}
+.social{
+    display: inline-block;
+    list-style: none;
+    border:2px solid #fff;
+    border-radius: 50%;
+    margin:5px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 2px;
+    font-size: 20px;
+    line-height: 33px;
+    text-decoration: none;
+    color: #fff;
+}
+.social:hover{
+    background: #fff;
+    color: #18bc9c;
+}
+.info p {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color:#fff;
+    width: 400px;
+}
+.info ul {
+    width: 400px;
+    padding-left: 0px;
+}
+.link{
+    color:#18bc9c;
+}
+.copyright{
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+.maps{
+ text-align: center;
+ margin: 20px;
+ }
+ .maps h3 {
+    font-size: 48px;
+    font-family:'Montserrat',sans-serif;
+    font-weight: 700px;
+    color:#18bc9c;
+ }
+ .maps p {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    outline-color: 0;
+    color: #343a40;
+    opacity: 0.7;
+    margin: 20px;
+ }
+ .bird{
+     width: 100%;
+     text-align: center;
+     padding: 50px;
+     background: #18bc9c;
+ }
+ .box-tweet{
+     margin: 20px;
+ }
+ 

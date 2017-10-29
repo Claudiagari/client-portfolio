@@ -3,76 +3,147 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="assets/favicon/favicon-32x32.png" sizes="32x32">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Montserrat:400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <title>Start Bootstrap</title>
 </head>
 <body>
     <header>
         <nav>
-            <h1>start bootstrap</h1>
-            <ul>
-                <li><a href="">portfolio</a></li>
-                <li><a href=""><a href="">about</a></a></li>
-                <li><a href=""><a href="">contact</a></a></li>
+            <h1 class="menu capital-letter"><a href=""id="boot">start bootstrap</a></h1>
+            <ul class="lis1 menu capital-letter">
+                <li class="menu click"><a href="">portfolio</a></li>
+                <li class="menu click"><a href=""><a href="">about</a></a></li>
+                <li class="menu click"><a href=""><a href="">contact</a></a></li>
             </ul>
         </nav>
     </header>
-    <section>
+    <section class="start">
          <figure>
             <img src="assets/images/profile.png" alt="photo-profile">
         </figure>
-        <h1>start bootstrap</h1>
-        <div>
-            <hr>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <hr>
+        <h1 class="capital-letter title">start bootstrap</h1>
+        <div class="icon-star">
+            <hr class="hr-white">
+            <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+            <hr class="hr-white" >
         </div>
-        <ul>
-            <li>Web Developer</li>
-            <li>Graphic Artist </li>
-            <li>User Experience Designer</li>
+        <ul id="list">
+            <li class="list" >Web Developer</li>
+            <li class="list">- Graphic Artist </li>
+            <li class="list">- User Experience Designer</li>
         </ul>
     </section>
-    <section>
-        <h1>portfolio</h1>
-        <div>
-             <hr>
-             <i class="fa fa-star" aria-hidden="true"></i>
-            <hr>
-            </div>
-        <figure>
-            <img src="assets/images/portfolio/cabin.png" alt="">
-        </figure>
-        <figure>
-            <img src="assets/images/portfolio/cake.png" alt="">
-        </figure>
-        <figure>
-            <img src="assets/images/portfolio/circus.png" alt="">
-        </figure>
-        <figure>
-            <img src="assets/images/portfolio/game.png" alt="">
-        </figure>
-        <figure>
-            <img src="assets/images/portfolio/safe.png" alt="">
-        </figure>
-        <figure>
-            <img src="assets/images/portfolio/submarine.png" alt="">
-        </figure>
+    <section class="portfolio">
+        <h2 class="capital-letter">portfolio</h2>
+        <div class="icon-star black" >
+             <hr class="hr-black">
+             <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+             <hr class="hr-black">
+        </div>
+        <div class="container">
+            <figure>
+                <img class="image"src="assets/images/portfolio/cabin.png" alt="">
+            </figure>
+            <figure>
+                <img class="image"src="assets/images/portfolio/cake.png" alt="">
+            </figure>
+            <figure>
+                <img class="image" src="assets/images/portfolio/circus.png" alt="">
+            </figure>
+            <figure>
+                <img class="image" src="assets/images/portfolio/game.png" alt="">
+            </figure>
+            <figure>
+                <img class="image" src="assets/images/portfolio/safe.png" alt="">
+            </figure>
+            <figure>
+                <img class="image" src="assets/images/portfolio/submarine.png" alt="">
+            </figure> 
+        </div>  
     </section>
-    <section>
-        <h1>about</h1>
-        <div>
-             <hr>
-             <i class="fa fa-star" aria-hidden="true"></i>
-             <hr>
+    <section class="about">
+        <h2 class="capital-letter">about</h2>
+        <div class="icon-star">
+             <hr class="hr-white">
+             <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+             <hr class="hr-white">
         </div> 
-        <ul>
-            <li><p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p></li>
-        </ul>
-
+        <div  class="column">
+            <p class="paragraph">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+            <p class="paragraph">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+        </div>
+        <div class="div-boxdw">
+            <a class="download"href=""><i class="fa fa-download" aria-hidden="true"></i>Download Theme</a>
+        </div>
     </section>
-    
-    
+    <section class="contact">
+        <div >
+            <h1 class="capital-letter">contact me</h1>
+            <div class="icon-star black">
+                <hr class="hr-black">
+                <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+                <hr class="hr-black">
+            </div>
+        </div> 
+        <div class="form">
+            <input type="text" placeholder="Name">
+            <hr>
+            <input type="email" placeholder="Email Adress">
+            <hr>
+            <input type="tel" placeholder="Phone Number">
+            <hr>
+            <textarea name="comentarios" rows="10" cols="40" placeholder="Message"></textarea>
+            <hr>
+            <button type="summit">Send</button>
+        </div>
+    </section>
+    <section>
+        <div class="maps">
+            <h3 class="capital-letter">location</h3>
+            <div class="icon-star black">
+                <hr class="hr-black">
+                <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+                <hr class="hr-black">
+            </div>
+            <p>3480 Melrose Place Beverly Hills, CA 90210</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.4552970000145!2d-118.33897474654714!3d34.08347502353177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b8d3b1e0287d%3A0x9cc32be17df028b8!2sMelrose+Ave%2C+Los+Angeles%2C+CA%2C+EE.+UU.!5e0!3m2!1ses-419!2spe!4v1509299817716" width="400" height="300" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+    <section class="bird">
+        <div class="icon-star black">
+            <hr class="hr-black">
+            <i class="fa fa-twitter fa-4x" aria-hidden="true"></i>
+            <hr class="hr-black">
+        </div>
+        <div class="box-tweet">
+            <a class="twitter-timeline"  href="https://twitter.com/search?q=start%20bootstrap" data-widget-id="924712743537700865">Tweets sobre start bootstrap</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
+          
+    </section>
+    <footer>
+        <section class="info">
+            <div class="location">
+                <h3 class="capital-letter">around the web</h3>
+                <ul>
+                    <li class="networks"><a href="" class="social"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li class="networks"><a href="" class="social"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                    <li class="networks"><a href="" class="social"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li class="networks"><a href="" class="social"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li class="networks"><a href="" class="social"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+            <div class="location">
+                <h3 class="capital-letter">about freelancer</h3>
+                <p>Freelance is a free to use, open source Bootstrap theme created by <a href="https://startbootstrap.com/" class="link">Start Bootstrap</a>.</p>
+            </div>
+        </section>
+        <section>
+            <p class="copyright" >Copyright © Your Website 2017</p>
+        </section>
+    </footer>
 </body>
 </html>
