@@ -1,7 +1,7 @@
 /*
  * Estilos de tu proyecto
  */
- * {
+/* * {
     margin: 0;
     box-sizing: border-box;
 }
@@ -368,8 +368,8 @@ footer{
      border-radius: 7px;
      background: #343a40;
      padding: 3px;
-     /*border:2px solid #343a40*/
+     /*border:2px solid #343a40
      width: 350px;
      height: 70px;
- }
+ }*/
  

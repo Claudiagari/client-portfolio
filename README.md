@@ -128,3 +128,8 @@ estructura de carpetas y archivos donde colocarás tu código.
 * Investigar sobre Backlog 2 horas.
 * Ejecutar Backlog y probar 3 horas.
 * Seguir dando estilo final 4 horas.
+## Modificación:
+* Revisar el index sin Css.
+* Ver que modificaciones se realizaran para que lo pueda ver la abuelita.
+* Agregar la quinta receta.
+* Hacer el html de la quinta receta.
