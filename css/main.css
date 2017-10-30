@@ -79,6 +79,7 @@ li{
     margin-bottom: 10px;
     margin-right: 5px;
     margin-left: 5px;
+    outline:0px; 
 }
 .icon-star{
     display: inline-block;
@@ -335,5 +336,40 @@ footer{
  }
  .box-tweet{
      margin: 20px;
+ }
+ .recipes {
+     text-align:center;
+     margin: 30px ;
+}
+ .recipes h3 {
+    font-size: 48px;
+    font-family:'Montserrat',sans-serif;
+    font-weight: 700px;
+    color:#18bc9c;
+ }
+ .photos-recipes{
+    text-align:center;
+    width: 800px;
+    margin-left:330px;
+    margin-top:20px;
+ }
+ .dish{
+     width: 350px;
+     height: 250px;
+     border-radius: 8px;
+     margin: 15px;
+ }
+ .recipe{
+     display: inline-block;
+     text-decoration: none;
+     font-size: 20px;
+     color: #fff;
+     font-family: 'Lato', sans-serif;
+     border-radius: 7px;
+     background: #343a40;
+     padding: 3px;
+     /*border:2px solid #343a40*/
+     width: 350px;
+     height: 70px;
  }
  
